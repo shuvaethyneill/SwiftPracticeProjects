@@ -73,7 +73,7 @@ This project built on my new knowledge of UIBarButtonItem and UIAlertController 
 </p>
 
 ## 6. Word Scramble
-This is a fun word game where you try to find all the anagrams of the selected word!
+This is a fun word game where you try to find all the anagrams of the selected word! Users can enter an answer by clicking the '+' icon or click 'New word' to start a new round. When a user enters an answer, it will be validated by checking if it is a real word, only uses the letters in the presented word once, and hasn't been submitted already. Valid answers are automatically ordered alphebetically and by length (ascending order) for easier readability. If any one of these validations fail, a specific error message will be presented to the user.
 <p float="left">
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/23216104/206967814-56c6e25b-57fb-405e-89a3-6031694792bd.png"><img width="368" alt="image" src="https://user-images.githubusercontent.com/23216104/206966903-0085c594-1e6e-4853-b5fb-981b9cafd810.png">
 <img width="341" alt="image" src="https://user-images.githubusercontent.com/23216104/206967022-27091fd9-4941-4001-a6f5-8620f6ef7a50.png">
