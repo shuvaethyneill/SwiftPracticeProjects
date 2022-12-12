@@ -79,3 +79,8 @@ This is a fun word game where you try to find all the anagrams of the selected w
 <img width="341" alt="image" src="https://user-images.githubusercontent.com/23216104/206967022-27091fd9-4941-4001-a6f5-8620f6ef7a50.png">
 </p>
 
+Things I learned: 
+- Reloading data and inserting rows using UITableView
+- Using UIAlertController to accept user input
+- Capture lists in Swift (weak, strong, unowned references)
+- Validating text input with UITextChecker and NSRange
