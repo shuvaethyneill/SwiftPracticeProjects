@@ -14,4 +14,9 @@ Things I learned how to do:
 - Build custom Navigation Bar
 
 
-<img width="404" alt="image" src="https://user-images.githubusercontent.com/23216104/206955298-ef3a8fad-a78a-4325-a79a-ccd9d8078aeb.png">
+### 5. Word Scramble
+<p float="left">
+<img width="367" alt="image" src="https://user-images.githubusercontent.com/23216104/206956151-69753f08-a596-436c-b393-9d69f36118c9.png">
+<img width="397" alt="image" src="https://user-images.githubusercontent.com/23216104/206955918-95bd8385-92c6-489c-ad27-eb191e4487ac.png">
+</p>
+
