@@ -27,8 +27,8 @@ Things I learned:
 ## 2. Storm Viewer
 This is a simple image viewer app. Users can scroll through a list of images and select one to view.
 <p float="left">
-<img width="480" alt="image" src="https://user-images.githubusercontent.com/23216104/206963709-ba6a4ba1-0854-468b-af02-3f6f9a80a280.png">
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/23216104/206963618-f818e23c-d959-493f-9992-dc6496494333.png">
+<img width="420" alt="image" src="https://user-images.githubusercontent.com/23216104/206963709-ba6a4ba1-0854-468b-af02-3f6f9a80a280.png">
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/23216104/206963618-f818e23c-d959-493f-9992-dc6496494333.png">
 </p>
 
 Things I learned: 
