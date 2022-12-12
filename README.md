@@ -72,6 +72,12 @@ This project built on my new knowledge of UIBarButtonItem and UIAlertController 
 <img width="477" alt="image" src="https://user-images.githubusercontent.com/23216104/206965902-b084e863-ba87-435e-93b3-bef645f0e099.png">
 </p>
 
+Things I learned: 
+- Using URL and URLRequest
+- Using UIToolbar and components like UIProgressView
+- Key-Value Observing (KVO) allows us to monitor the changing of some value in our code
+- Delegates
+
 ## 6. Word Scramble
 This is a fun word game where you try to find all the anagrams of the selected word! Users can enter an answer by clicking the '+' icon or click 'New word' to start a new round. When a user enters an answer, it will be validated by checking if it is a real word, only uses the letters in the presented word once, and hasn't been submitted already. Valid answers are automatically ordered alphebetically and by length (ascending order) for easier readability. If any one of these validations fail, a specific error message will be presented to the user.
 <p float="left">
