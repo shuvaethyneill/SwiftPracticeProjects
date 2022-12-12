@@ -51,8 +51,7 @@ Things I learned how to do:
 
 ## 6. Word Scramble
 <p float="left">
-<img width="270" alt="image" src="https://user-images.githubusercontent.com/23216104/206956151-69753f08-a596-436c-b393-9d69f36118c9.png">
-<img width="368" alt="image" src="https://user-images.githubusercontent.com/23216104/206966903-0085c594-1e6e-4853-b5fb-981b9cafd810.png">
+<img width="280" alt="image" src="https://user-images.githubusercontent.com/23216104/206967814-56c6e25b-57fb-405e-89a3-6031694792bd.png"><img width="368" alt="image" src="https://user-images.githubusercontent.com/23216104/206966903-0085c594-1e6e-4853-b5fb-981b9cafd810.png">
 <img width="341" alt="image" src="https://user-images.githubusercontent.com/23216104/206967022-27091fd9-4941-4001-a6f5-8620f6ef7a50.png">
 </p>
 
