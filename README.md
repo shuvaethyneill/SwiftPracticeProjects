@@ -13,6 +13,7 @@ The following section will serve as a quick way to navigate around this reposito
 | [ShareMedia](#4-share-media) | Sharing action on navigation bar. |
 | [EasyBrowser](#5-easy-browser) | Simple browser with WebKit. |
 | [WordScramble](#6-word-scramble) | Game to create anagrams from a given word. |
+| [GroceryList](#7-grocery-list) | App to create a list of groceries. |
 
 ## 1. Tap Counter (Version 1)
 The first project I built while learning the fundamentals of Swift. The counter label will increment as the user clicks the Tap button. The counter will be reset back to 0 if the Reset button is clicked. 
