@@ -90,3 +90,13 @@ Things I learned:
 - Using UIAlertController to accept user input
 - Capture lists in Swift (weak, strong, unowned references)
 - Validating text input with UITextChecker and NSRange
+
+## 7. Grocery List
+This app lets people create a grocery list by adding items to a table view!
+
+Once again, this app has a UIAlertController with a text field to let users enter an item they would like to add to their list. The item will be validated to make sure it is not empty and that the user has not already added it. I have added a left bar button item that clears the list completely (and asks the user for confirmation before doing so). I have also implemented swipe to delete if the user only wants to delete one item at a time. I have added two right bar button items: an add button and an info button. By clicking the info button the user is presented with all the functions the app provides. 
+<p float="left">
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/23216104/208269923-de955140-994d-43c2-ac5c-590e56f00d15.png">
+<img width="245" alt="image" src="https://user-images.githubusercontent.com/23216104/208269958-d912bc49-9e04-44fb-b114-94a415053e0f.png">
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/23216104/208269941-42ddbe89-02cb-4b51-a564-289c945e9a80.png">
+</p>
