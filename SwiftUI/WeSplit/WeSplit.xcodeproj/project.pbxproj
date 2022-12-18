@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C4E4FE8E294D7BFE0098F396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E4FE8D294D7BFE0098F396 /* AppDelegate.swift */; };
-		C4E4FE90294D7BFE0098F396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E4FE8F294D7BFE0098F396 /* SceneDelegate.swift */; };
-		C4E4FE92294D7BFE0098F396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E4FE91294D7BFE0098F396 /* ViewController.swift */; };
-		C4E4FE95294D7BFE0098F396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E4FE93294D7BFE0098F396 /* Main.storyboard */; };
-		C4E4FE97294D7C030098F396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E4FE96294D7C030098F396 /* Assets.xcassets */; };
-		C4E4FE9A294D7C030098F396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E4FE98294D7C030098F396 /* LaunchScreen.storyboard */; };
+		C4D4FB98294EA9A900913BDF /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D4FB97294EA9A900913BDF /* WeSplitApp.swift */; };
+		C4D4FB9A294EA9A900913BDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D4FB99294EA9A900913BDF /* ContentView.swift */; };
+		C4D4FB9C294EA9AE00913BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D4FB9B294EA9AE00913BDF /* Assets.xcassets */; };
+		C4D4FB9F294EA9AE00913BDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D4FB9E294EA9AE00913BDF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C4E4FE8A294D7BFE0098F396 /* GroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4E4FE8D294D7BFE0098F396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4E4FE8F294D7BFE0098F396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4E4FE91294D7BFE0098F396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C4E4FE94294D7BFE0098F396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C4E4FE96294D7C030098F396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4E4FE99294D7C030098F396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C4E4FE9B294D7C030098F396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D4FB94294EA9A900913BDF /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D4FB97294EA9A900913BDF /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
+		C4D4FB99294EA9A900913BDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4D4FB9B294EA9AE00913BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4D4FB9E294EA9AE00913BDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C4E4FE87294D7BFE0098F396 /* Frameworks */ = {
+		C4D4FB91294EA9A900913BDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +32,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C4E4FE81294D7BFE0098F396 = {
+		C4D4FB8B294EA9A900913BDF = {
 			isa = PBXGroup;
 			children = (
-				C4E4FE8C294D7BFE0098F396 /* GroceryList */,
-				C4E4FE8B294D7BFE0098F396 /* Products */,
+				C4D4FB96294EA9A900913BDF /* WeSplit */,
+				C4D4FB95294EA9A900913BDF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C4E4FE8B294D7BFE0098F396 /* Products */ = {
+		C4D4FB95294EA9A900913BDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4E4FE8A294D7BFE0098F396 /* GroceryList.app */,
+				C4D4FB94294EA9A900913BDF /* WeSplit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4E4FE8C294D7BFE0098F396 /* GroceryList */ = {
+		C4D4FB96294EA9A900913BDF /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				C4E4FE8D294D7BFE0098F396 /* AppDelegate.swift */,
-				C4E4FE8F294D7BFE0098F396 /* SceneDelegate.swift */,
-				C4E4FE91294D7BFE0098F396 /* ViewController.swift */,
-				C4E4FE93294D7BFE0098F396 /* Main.storyboard */,
-				C4E4FE96294D7C030098F396 /* Assets.xcassets */,
-				C4E4FE98294D7C030098F396 /* LaunchScreen.storyboard */,
-				C4E4FE9B294D7C030098F396 /* Info.plist */,
+				C4D4FB97294EA9A900913BDF /* WeSplitApp.swift */,
+				C4D4FB99294EA9A900913BDF /* ContentView.swift */,
+				C4D4FB9B294EA9AE00913BDF /* Assets.xcassets */,
+				C4D4FB9D294EA9AE00913BDF /* Preview Content */,
 			);
-			path = GroceryList;
+			path = WeSplit;
+			sourceTree = "<group>";
+		};
+		C4D4FB9D294EA9AE00913BDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4D4FB9E294EA9AE00913BDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4E4FE89294D7BFE0098F396 /* GroceryList */ = {
+		C4D4FB93294EA9A900913BDF /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4E4FE9E294D7C030098F396 /* Build configuration list for PBXNativeTarget "GroceryList" */;
+			buildConfigurationList = C4D4FBA2294EA9AE00913BDF /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
-				C4E4FE86294D7BFE0098F396 /* Sources */,
-				C4E4FE87294D7BFE0098F396 /* Frameworks */,
-				C4E4FE88294D7BFE0098F396 /* Resources */,
+				C4D4FB90294EA9A900913BDF /* Sources */,
+				C4D4FB91294EA9A900913BDF /* Frameworks */,
+				C4D4FB92294EA9A900913BDF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GroceryList;
-			productName = GroceryList;
-			productReference = C4E4FE8A294D7BFE0098F396 /* GroceryList.app */;
+			name = WeSplit;
+			productName = WeSplit;
+			productReference = C4D4FB94294EA9A900913BDF /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C4E4FE82294D7BFE0098F396 /* Project object */ = {
+		C4D4FB8C294EA9A900913BDF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					C4E4FE89294D7BFE0098F396 = {
+					C4D4FB93294EA9A900913BDF = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = C4E4FE85294D7BFE0098F396 /* Build configuration list for PBXProject "GroceryList" */;
+			buildConfigurationList = C4D4FB8F294EA9A900913BDF /* Build configuration list for PBXProject "WeSplit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,63 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = C4E4FE81294D7BFE0098F396;
-			productRefGroup = C4E4FE8B294D7BFE0098F396 /* Products */;
+			mainGroup = C4D4FB8B294EA9A900913BDF;
+			productRefGroup = C4D4FB95294EA9A900913BDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4E4FE89294D7BFE0098F396 /* GroceryList */,
+				C4D4FB93294EA9A900913BDF /* WeSplit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C4E4FE88294D7BFE0098F396 /* Resources */ = {
+		C4D4FB92294EA9A900913BDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E4FE9A294D7C030098F396 /* LaunchScreen.storyboard in Resources */,
-				C4E4FE97294D7C030098F396 /* Assets.xcassets in Resources */,
-				C4E4FE95294D7BFE0098F396 /* Main.storyboard in Resources */,
+				C4D4FB9F294EA9AE00913BDF /* Preview Assets.xcassets in Resources */,
+				C4D4FB9C294EA9AE00913BDF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C4E4FE86294D7BFE0098F396 /* Sources */ = {
+		C4D4FB90294EA9A900913BDF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E4FE92294D7BFE0098F396 /* ViewController.swift in Sources */,
-				C4E4FE8E294D7BFE0098F396 /* AppDelegate.swift in Sources */,
-				C4E4FE90294D7BFE0098F396 /* SceneDelegate.swift in Sources */,
+				C4D4FB9A294EA9A900913BDF /* ContentView.swift in Sources */,
+				C4D4FB98294EA9A900913BDF /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		C4E4FE93294D7BFE0098F396 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4E4FE94294D7BFE0098F396 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C4E4FE98294D7C030098F396 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4E4FE99294D7C030098F396 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		C4E4FE9C294D7C030098F396 /* Debug */ = {
+		C4D4FBA0294EA9AE00913BDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		C4E4FE9D294D7C030098F396 /* Release */ = {
+		C4D4FBA1294EA9AE00913BDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,18 +259,19 @@
 			};
 			name = Release;
 		};
-		C4E4FE9F294D7C030098F396 /* Debug */ = {
+		C4D4FBA3294EA9AE00913BDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GroceryList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Shu.GroceryList;
+				PRODUCT_BUNDLE_IDENTIFIER = Shu.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,18 +287,19 @@
 			};
 			name = Debug;
 		};
-		C4E4FEA0294D7C030098F396 /* Release */ = {
+		C4D4FBA4294EA9AE00913BDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GroceryList/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Shu.GroceryList;
+				PRODUCT_BUNDLE_IDENTIFIER = Shu.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4E4FE85294D7BFE0098F396 /* Build configuration list for PBXProject "GroceryList" */ = {
+		C4D4FB8F294EA9A900913BDF /* Build configuration list for PBXProject "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4E4FE9C294D7C030098F396 /* Debug */,
-				C4E4FE9D294D7C030098F396 /* Release */,
+				C4D4FBA0294EA9AE00913BDF /* Debug */,
+				C4D4FBA1294EA9AE00913BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4E4FE9E294D7C030098F396 /* Build configuration list for PBXNativeTarget "GroceryList" */ = {
+		C4D4FBA2294EA9AE00913BDF /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C4E4FE9F294D7C030098F396 /* Debug */,
-				C4E4FEA0294D7C030098F396 /* Release */,
+				C4D4FBA3294EA9AE00913BDF /* Debug */,
+				C4D4FBA4294EA9AE00913BDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C4E4FE82294D7BFE0098F396 /* Project object */;
+	rootObject = C4D4FB8C294EA9A900913BDF /* Project object */;
 }
