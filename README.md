@@ -70,8 +70,8 @@ Things I learned:
 ## 5. Easy Browser
 This project built on my new knowledge of UIBarButtonItem and UIAlertController by producing a simple web browser app.
 <p float="left">
-<img width="482" alt="image" src="https://user-images.githubusercontent.com/23216104/206966115-5d7ba335-3fb6-4a07-b3a0-9c2797a32897.png">
-<img width="477" alt="image" src="https://user-images.githubusercontent.com/23216104/206965902-b084e863-ba87-435e-93b3-bef645f0e099.png">
+<img width="402" alt="image" src="https://user-images.githubusercontent.com/23216104/206966115-5d7ba335-3fb6-4a07-b3a0-9c2797a32897.png">
+<img width="397" alt="image" src="https://user-images.githubusercontent.com/23216104/206965902-b084e863-ba87-435e-93b3-bef645f0e099.png">
 </p>
 
 Things I learned: 
