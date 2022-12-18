@@ -1,19 +1,20 @@
 # Swift Practice Projects
 ### A collection of projects I have made while learning Swift!
 
-The following section will serve as a quick way to navigate around this repository and information about the projects.
+The following section will serve as a quick way to navigate around this repository and information about the projects. Some projects were made using **UIKit** and some were made using **SwiftUI**.
 
 # Table of Contents
 
-| Name | Description |
-|---|---|
-| [TapCounter01](#1-tap-counter-version-1) | Tap to increment number. |
-| [StormViewer](#2-storm-viewer) | Clicking on a table cell to view images. |
-| [GuessTheFlag](#3-guess-the-flag) | Game to choose the correct flag out of 3. |
-| [ShareMedia](#4-share-media) | Sharing action on navigation bar. |
-| [EasyBrowser](#5-easy-browser) | Simple browser with WebKit. |
-| [WordScramble](#6-word-scramble) | Game to create anagrams from a given word. |
-| [GroceryList](#7-grocery-list) | App to create a list of groceries. |
+| Name | Description | Framework |
+|---|---| ---|
+| [TapCounter01](#1-tap-counter-version-1) | Tap to increment number. | UIKit |
+| [StormViewer](#2-storm-viewer) | Clicking on a table cell to view images. | UIKit |
+| [GuessTheFlag](#3-guess-the-flag) | Game to choose the correct flag out of 3. | UIKit |
+| [ShareMedia](#4-share-media) | Sharing action on navigation bar. | UIKit |
+| [EasyBrowser](#5-easy-browser) | Simple browser with WebKit. | UIKit |
+| [WordScramble](#6-word-scramble) | Game to create anagrams from a given word. | UIKit |
+| [GroceryList](#7-grocery-list) | App to create a list of groceries. | UIKit |
+| [WeSplit](#8-WeSplit) | Calculate and split bill amount with tip. | SwiftUI |
 
 ## 1. Tap Counter (Version 1)
 The first project I built while learning the fundamentals of Swift. The counter label will increment as the user clicks the Tap button. The counter will be reset back to 0 if the Reset button is clicked. 
@@ -101,3 +102,11 @@ Once again, this app has a UIAlertController with a text field to let users ente
 <img width="245" alt="image" src="https://user-images.githubusercontent.com/23216104/208269958-d912bc49-9e04-44fb-b114-94a415053e0f.png">
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/23216104/208269941-42ddbe89-02cb-4b51-a564-289c945e9a80.png">
 </p>
+
+## 8. WeSplit
+Wesplit is a bill sharing app that helps to sum up the total amount (including tip) and split based on the number of people. It is a simple app to learn the basics of SwiftUI. 
+
+<p float="left">
+<img width="295" alt="WeSplit" src="https://user-images.githubusercontent.com/23216104/208283768-22955043-fdbd-4173-ab73-535fe941bde3.png">
+</p>
+
