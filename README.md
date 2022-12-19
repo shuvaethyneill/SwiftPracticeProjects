@@ -106,7 +106,47 @@ Once again, this app has a UIAlertController with a text field to let users ente
 ## 8. WeSplit
 Wesplit is a bill sharing app that helps to sum up the total amount (including tip) and split based on the number of people. It is a simple app to learn the basics of SwiftUI. 
 
+Things I learned: 
+- Basic structure of SwiftUI apps
+- How to build forms and sections
+- How to create navigation views
+- How to store program state with @State property wrappers
+- How to create user interface controls such as TextField and Picker
+
 <p float="left">
 <img width="295" alt="WeSplit" src="https://user-images.githubusercontent.com/23216104/208283768-22955043-fdbd-4173-ab73-535fe941bde3.png">
 </p>
 
+## 9. GuessTheFlag
+This is the same game as the first GuessTheFlag project I made but thiis time I created it using SwiftUI! The game shows three random flags to users and asks them to choose which one belongs to a particular country. The game ends after 10 questions and the user will be presented their final score.
+
+<p float="left">
+<img width="255" alt="main_screen" src="https://user-images.githubusercontent.com/23216104/208350497-f3c5c8a4-7d24-4ebe-b9ce-5d573857dc31.png">
+<img width="255" alt="Screen Shot 2022-12-18 at 1 07 41 PM" src="https://user-images.githubusercontent.com/23216104/208350526-f9edc59f-93ef-48fd-907f-8e8047e8aa49.png">
+<img width="251" alt="Screen Shot 2022-12-18 at 1 09 04 PM" src="https://user-images.githubusercontent.com/23216104/208350553-1f5aab76-60ef-4df6-b616-179b6f20a179.png">
+</p>
+
+Things I learned: 
+- VStack, HStack, ZStack
+- How to show an alert
+
+## 10. RockPaperScissors
+I made this game to test my SwiftUI knowledge thus far. It's the classic rock paper, scissors with a twist. In this game, you will be prompted with the computer's choice beforehand and be told to either win or lose. It is your job to choose the correct option to satisfy that condition :)
+
+<p float="left">
+<img width="250" alt="Screen Shot 2022-12-18 at 5 08 58 PM" src="https://user-images.githubusercontent.com/23216104/208351075-60d1bf76-8bce-4374-a2cd-0bf6df6c132c.png">
+<img width="248" alt="Screen Shot 2022-12-18 at 5 09 12 PM" src="https://user-images.githubusercontent.com/23216104/208351104-6ac62bb6-28ee-454e-b973-f25a5b399c23.png">
+</p>
+
+## 10. WordScramble
+This is the same WordScramble game I created with UIKit except this time I made it using SwiftUI!
+
+<p float="left">
+<img width="231" alt="Screen Shot 2022-12-18 at 7 42 17 PM" src="https://user-images.githubusercontent.com/23216104/208351588-c5aa953e-8366-42e9-ab96-11418778a886.png">
+<img width="227" alt="Screen Shot 2022-12-18 at 7 42 41 PM" src="https://user-images.githubusercontent.com/23216104/208351611-c6fd3a59-38c0-4d90-a040-7f9d7d0fa413.png">
+<img width="224" alt="Screen Shot 2022-12-18 at 7 44 22 PM" src="https://user-images.githubusercontent.com/23216104/208351634-500ba6be-82ec-4d84-8523-94c2147e903d.png">
+</p>
+
+Things I learned: 
+- How to use a List
+- onAppear and onSubmit methods 
