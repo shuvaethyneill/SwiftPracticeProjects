@@ -64,9 +64,7 @@ struct ContentView: View {
                 return
             }
         }
-        
-        usedWords = [String]()
-        
+                
         // Should not reach here. Means file was not loaded properly
         fatalError("Could not load start.txt from bundle.")
     }
