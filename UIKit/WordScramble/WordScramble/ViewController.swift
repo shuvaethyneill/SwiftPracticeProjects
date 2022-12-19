@@ -10,6 +10,7 @@ class ViewController: UITableViewController {
     
     var wordBank = [String]()
     var usedWords = [String]()
+    let checker = UITextChecker()   // class designed to spot spelling errors
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -135,7 +136,6 @@ class ViewController: UITableViewController {
     }
     
     func isReal(word: String) -> Bool {
-        let checker = UITextChecker()   // class designed to spot spelling errors
         let range = NSRange(location: 0, length: word.utf16.count) // must use utf16.count for the character count with UIKit
         // check for mispell - returns either location of misspell or NSNotFound if no mispell exists (valid word)
         let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
