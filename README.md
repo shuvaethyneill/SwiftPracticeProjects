@@ -14,7 +14,10 @@ The following section will serve as a quick way to navigate around this reposito
 | [EasyBrowser](#5-easy-browser) | Simple browser with WebKit. | UIKit |
 | [WordScramble](#6-word-scramble) | Game to create anagrams from a given word. | UIKit |
 | [GroceryList](#7-grocery-list) | App to create a list of groceries. | UIKit |
-| [WeSplit](#8-WeSplit) | Calculate and split bill amount with tip. | SwiftUI |
+| [WeSplit](#8-wesplit) | Calculate and split bill amount with tip. | SwiftUI |
+| [GuessTheFlag](#9-guess-the-flag) | Game to choose the correct flag out of 3. | SwiftUI |
+| [RockPaperScissors](#10-rock-paper-scissors) | Rock, paper, scissors with a twist. | SwiftUI |
+| [WordScramble](#11-word-scramble) | Game to create anagrams from a given word. | SwiftUI |
 
 ## 1. Tap Counter (Version 1)
 The first project I built while learning the fundamentals of Swift. The counter label will increment as the user clicks the Tap button. The counter will be reset back to 0 if the Reset button is clicked. 
@@ -117,7 +120,7 @@ Things I learned:
 <img width="295" alt="WeSplit" src="https://user-images.githubusercontent.com/23216104/208283768-22955043-fdbd-4173-ab73-535fe941bde3.png">
 </p>
 
-## 9. GuessTheFlag
+## 9. Guess The Flag
 This is the same game as the first GuessTheFlag project I made but thiis time I created it using SwiftUI! The game shows three random flags to users and asks them to choose which one belongs to a particular country. The game ends after 10 questions and the user will be presented their final score.
 
 <p float="left">
@@ -130,7 +133,7 @@ Things I learned:
 - VStack, HStack, ZStack
 - How to show an alert
 
-## 10. RockPaperScissors
+## 10. Rock Paper Scissors
 I made this game to test my SwiftUI knowledge thus far. It's the classic rock paper, scissors with a twist. In this game, you will be prompted with the computer's choice beforehand and be told to either win or lose. It is your job to choose the correct option to satisfy that condition :)
 
 <p float="left">
@@ -138,7 +141,7 @@ I made this game to test my SwiftUI knowledge thus far. It's the classic rock pa
 <img width="248" alt="Screen Shot 2022-12-18 at 5 09 12 PM" src="https://user-images.githubusercontent.com/23216104/208351104-6ac62bb6-28ee-454e-b973-f25a5b399c23.png">
 </p>
 
-## 10. WordScramble
+## 11. Word Scramble
 This is the same WordScramble game I created with UIKit except this time I made it using SwiftUI!
 
 <p float="left">
