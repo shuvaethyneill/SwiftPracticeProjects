@@ -18,6 +18,7 @@ The following section will serve as a quick way to navigate around this reposito
 | [GuessTheFlag](#9-guess-the-flag) | Game to choose the correct flag out of 3. | SwiftUI |
 | [RockPaperScissors](#10-rock-paper-scissors) | Rock, paper, scissors with a twist. | SwiftUI |
 | [WordScramble](#11-word-scramble) | Game to create anagrams from a given word. | SwiftUI |
+| [BetterRest](#12-betterrest) | Get a recommended bedtime! | SwiftUI |
 
 ## 1. Tap Counter (Version 1)
 The first project I built while learning the fundamentals of Swift. The counter label will increment as the user clicks the Tap button. The counter will be reset back to 0 if the Reset button is clicked. 
@@ -153,3 +154,11 @@ This is the same WordScramble game I created with UIKit except this time I made 
 Things I learned: 
 - How to use a List
 - onAppear and onSubmit methods 
+
+## 12. BetterRest 
+**Note**: This app is complete but I would like to make some improvements to it! I will do so in the coming days. <br>
+This is an app that gives you a recommended bedtime based on your coffee intake and how many hours you would like to sleep. 
+
+<p float="left">
+<img width="271" alt="image" src="https://user-images.githubusercontent.com/23216104/209047937-a9fc8a79-415b-48c4-b159-4c14143ff188.png">
+</p>
