@@ -146,9 +146,9 @@ I made this game to test my SwiftUI knowledge thus far. It's the classic rock pa
 This is the same WordScramble game I created with UIKit except this time I made it using SwiftUI!
 
 <p float="left">
-<img width="231" alt="Screen Shot 2022-12-18 at 7 42 17 PM" src="https://user-images.githubusercontent.com/23216104/208351588-c5aa953e-8366-42e9-ab96-11418778a886.png">
-<img width="227" alt="Screen Shot 2022-12-18 at 7 42 41 PM" src="https://user-images.githubusercontent.com/23216104/208351611-c6fd3a59-38c0-4d90-a040-7f9d7d0fa413.png">
-<img width="224" alt="Screen Shot 2022-12-18 at 7 44 22 PM" src="https://user-images.githubusercontent.com/23216104/208351634-500ba6be-82ec-4d84-8523-94c2147e903d.png">
+<img width="221" alt="image" src="https://user-images.githubusercontent.com/23216104/210655999-930aa774-5f38-4d4d-8627-b2a82363b95d.png">
+<img width="215" alt="image" src="https://user-images.githubusercontent.com/23216104/210656131-ad33b9c8-6d53-4058-b6ac-75975ad0f0c3.png">
+<img width="220" alt="image" src="https://user-images.githubusercontent.com/23216104/210656225-796ac1e5-86e7-47ef-90f8-d42ef1e9cbdc.png">
 </p>
 
 Things I learned: 
