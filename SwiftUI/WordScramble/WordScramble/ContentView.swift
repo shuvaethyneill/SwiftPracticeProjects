@@ -15,19 +15,29 @@ struct ContentView: View {
     @State private var errorTitle = ""
     @State private var errorMessage = ""
     @State private var showingError = false
+    @State private var playerScore = 0
     
     
     var body: some View {
         // Note: NavigationView is deprecated for iOS 16 - alternative is NavigationStack
         NavigationView {
             List {
-                Section {
+                Section("Starter Word") {
+                    Text(rootWord)
+                        .font(.largeTitle)
+                }
+                
+                Section("Your Answer") {
                     // Bind user input
                     TextField("Enter your word", text: $newWord)
                         .textInputAutocapitalization(.never)
+                    
+                    Text("Total score: \(playerScore)")
+                        .font(.headline)
+                        .foregroundColor(.blue)
                 }
                     
-                Section {
+                Section("Used Words") {
                     // ForEach needs unique objects to iterate
                     // Use special keypath \.self
                     ForEach(usedWords, id: \.self) { word in
@@ -38,7 +48,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle(rootWord)
+            .navigationTitle("WordScramble")
             .onSubmit(submit)
             .onAppear(perform: startGame)
             .toolbar {
@@ -61,6 +71,8 @@ struct ContentView: View {
                 let wordBank = startWords.components(separatedBy: "\n")
                 rootWord = wordBank.randomElement() ?? "silkworm"
                 usedWords = []
+                newWord = ""
+                playerScore = 0
                 return
             }
         }
@@ -71,6 +83,8 @@ struct ContentView: View {
     
     func submit() {
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        // Exit if remaining string is empty
         guard !answer.isEmpty else { return }
         
         guard isPossible(word: answer) else {
@@ -92,6 +106,8 @@ struct ContentView: View {
             usedWords.sort()
             usedWords.sort(by: {$0.count < $1.count})
         }
+        
+        playerScore += answer.count
         newWord = ""
     }
     
