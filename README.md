@@ -19,6 +19,8 @@ The following section will serve as a quick way to navigate around this reposito
 | [RockPaperScissors](#10-rock-paper-scissors) | Rock, paper, scissors with a twist. | SwiftUI |
 | [WordScramble](#11-word-scramble) | Game to create anagrams from a given word. | SwiftUI |
 | [BetterRest](#12-betterrest) | Get a recommended bedtime! | SwiftUI |
+| [War](#13-war) | War card game. | SwiftUI |
+
 
 ## 1. Tap Counter (Version 1)
 The first project I built while learning the fundamentals of Swift. The counter label will increment as the user clicks the Tap button. The counter will be reset back to 0 if the Reset button is clicked. 
@@ -162,3 +164,21 @@ This is an app that gives you a recommended bedtime based on your coffee intake 
 <p float="left">
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/23216104/209047937-a9fc8a79-415b-48c4-b159-4c14143ff188.png">
 </p>
+
+## 13. War
+
+I recreated the card game War with SwiftUI! Users can press the deal button to generate two different cards (one for themself and one for the CPU). Whoever has the larger value will gain one point. The game will end after 10 turns and the user will be shown an alert that tells them who has won or if the game ended in a tie (draw).
+
+<p float="left">
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/23216104/211175241-44a4ebf2-c0fd-42ea-b569-7a43aaa7035e.png">
+<img width="255" alt="image" src="https://user-images.githubusercontent.com/23216104/211175254-7c7fe596-8666-4f14-8af9-fcc38119eea4.png">
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/23216104/211175262-fc6d613d-5a57-4dc7-a416-8f02d989fac2.png">
+</p>
+
+**Note**: Images resources acquired from https://codewithchris.com 14 Day Challenge (SwiftUI)
+
+I would like to point out that Chris provides an excellent base for this project but I have optimized it and added on to it slightly. Here is a list of some of my personal changes:
+- Start game with back of cards showing instead of default values
+- Instead of implementing functionality in the body computed property, I decided to extract the functionality into separate functions to have cleaner code
+- Game will end after 10 rounds instead of going on forever
+- When the game is over, I present the user with an alert telling them who has won the game and they can start a new game
