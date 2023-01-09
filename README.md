@@ -1,7 +1,7 @@
 # Swift Practice Projects
-### A collection of projects I have made while learning Swift!
+### A collection of projects I have made while learning Swift and iOS mobile app development!
 
-The following section will serve as a quick way to navigate around this repository and information about the projects. Some projects were made using **UIKit** and some were made using **SwiftUI**.
+The following section will serve as a quick way to navigate around this repository and information about the projects. Some projects were made using **UIKit** and some were made using **SwiftUI**. This list contains a mix of project prompts (plus challenges) from the 100 days of Swift/SwiftUI course outline and some are projects I've created purley on my own. Overall, putting what I learn into practice has been a good way of solidifying my knowledge of new concepts. 
 
 # Table of Contents
 
