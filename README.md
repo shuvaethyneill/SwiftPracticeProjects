@@ -39,6 +39,8 @@ This is a simple image viewer app. Users can scroll through a list of images and
 <img width="450" alt="image" src="https://user-images.githubusercontent.com/23216104/206963618-f818e23c-d959-493f-9992-dc6496494333.png">
 </p>
 
+Project prompt from 100 days of Swift.
+
 Things I learned: 
 - Creating Table Views and Image Views
 - App Bundles and using FileManager
@@ -54,6 +56,8 @@ This is a game that shows three random flags to users and asks them to choose wh
 <img width="340" alt="image" src="https://user-images.githubusercontent.com/23216104/206964376-6c0fb3c3-28c8-4aa2-8384-e257db6c8b2e.png">
 </p>
 
+Project prompt from 100 days of Swift.
+
 Things I learned: 
 - @2x and @3x images to account for different screen resolutions
 - Asset catalogs
@@ -68,6 +72,8 @@ This project modifies the Storm Viewer project to let users save an image or sha
 <img width="450" alt="image" src="https://user-images.githubusercontent.com/23216104/206965136-8c5f1be3-768e-46cc-a5ab-09f82546801d.png">
 </p>
 
+Project prompt from 100 days of Swift.
+
 Things I learned: 
 - UIBarButtonItem
 - We can share images, text, and more using UIActivityViewController
@@ -79,6 +85,8 @@ This project built on my new knowledge of UIBarButtonItem and UIAlertController 
 <img width="402" alt="image" src="https://user-images.githubusercontent.com/23216104/206966115-5d7ba335-3fb6-4a07-b3a0-9c2797a32897.png">
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/23216104/206965902-b084e863-ba87-435e-93b3-bef645f0e099.png">
 </p>
+
+Project prompt from 100 days of Swift.
 
 Things I learned: 
 - Using URL and URLRequest
@@ -92,6 +100,8 @@ This is a fun word game where you try to find all the anagrams of the selected w
 <img width="280" alt="image" src="https://user-images.githubusercontent.com/23216104/206967814-56c6e25b-57fb-405e-89a3-6031694792bd.png"><img width="368" alt="image" src="https://user-images.githubusercontent.com/23216104/206966903-0085c594-1e6e-4853-b5fb-981b9cafd810.png">
 <img width="341" alt="image" src="https://user-images.githubusercontent.com/23216104/206967022-27091fd9-4941-4001-a6f5-8620f6ef7a50.png">
 </p>
+
+Project prompt from 100 days of Swift.
 
 Things I learned: 
 - Reloading data and inserting rows using UITableView
@@ -112,6 +122,8 @@ Once again, this app has a UIAlertController with a text field to let users ente
 ## 8. WeSplit
 Wesplit is a bill sharing app that helps to sum up the total amount (including tip) and split based on the number of people. It is a simple app to learn the basics of SwiftUI. 
 
+Project prompt from 100 days of SwiftUI.
+
 Things I learned: 
 - Basic structure of SwiftUI apps
 - How to build forms and sections
@@ -131,6 +143,8 @@ This is the same game as the first GuessTheFlag project I made but thiis time I 
 <img width="255" alt="Screen Shot 2022-12-18 at 1 07 41 PM" src="https://user-images.githubusercontent.com/23216104/208350526-f9edc59f-93ef-48fd-907f-8e8047e8aa49.png">
 <img width="251" alt="Screen Shot 2022-12-18 at 1 09 04 PM" src="https://user-images.githubusercontent.com/23216104/208350553-1f5aab76-60ef-4df6-b616-179b6f20a179.png">
 </p>
+
+Project prompt from 100 days of SwiftUI.
 
 Things I learned: 
 - VStack, HStack, ZStack
@@ -153,6 +167,8 @@ This is the same WordScramble game I created with UIKit except this time I made 
 <img width="220" alt="image" src="https://user-images.githubusercontent.com/23216104/210656225-796ac1e5-86e7-47ef-90f8-d42ef1e9cbdc.png">
 </p>
 
+Project prompt from 100 days of SwiftUI.
+
 Things I learned: 
 - How to use a List
 - onAppear and onSubmit methods 
@@ -164,6 +180,8 @@ This is an app that gives you a recommended bedtime based on your coffee intake 
 <p float="left">
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/23216104/209047937-a9fc8a79-415b-48c4-b159-4c14143ff188.png">
 </p>
+
+Project prompt from 100 days of SwiftUI.
 
 ## 13. War
 
