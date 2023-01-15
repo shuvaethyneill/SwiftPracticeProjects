@@ -20,6 +20,7 @@ The following section will serve as a quick way to navigate around this reposito
 | [WordScramble](#11-word-scramble) | Game to create anagrams from a given word. | SwiftUI |
 | [BetterRest](#12-betterrest) | Get a recommended bedtime! | SwiftUI |
 | [War](#13-war) | War card game. | SwiftUI |
+| [Apple Calculator](#14-apple-calculator) | Calculator featured on iOS mobile devices.| SwiftUI |
 
 
 ## 1. Tap Counter (Version 1)
@@ -200,3 +201,7 @@ I would like to point out that Chris provides an excellent base for this project
 - Instead of implementing functionality in the body computed property, I decided to extract the functionality into separate functions to have cleaner code
 - Game will end after 10 rounds instead of going on forever
 - When the game is over, I present the user with an alert telling them who has won the game and they can start a new game
+
+## 14. Apple Calculator 
+
+Currently working on this! To test my skills, I want to see if I can recreate the default Calculator app that comes with all the iOS mobile devices. I have a basic version working right now but am working towards optimizing.
